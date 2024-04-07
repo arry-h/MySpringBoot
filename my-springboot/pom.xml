@@ -17,6 +17,14 @@
             <artifactId>tomcat-embed-core</artifactId>
             <version>9.0.79</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.4.46.v20220331</version>
+            <!--标注了 optional为true代表当前依赖不会被传递           -->
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <properties>

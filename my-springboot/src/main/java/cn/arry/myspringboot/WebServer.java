@@ -1,5 +1,7 @@
 package cn.arry.myspringboot;
 
+import org.springframework.web.context.WebApplicationContext;
+
 /**
  * @author arry
  * @description
@@ -9,5 +11,5 @@ public interface WebServer {
     /**
      * 启动服务器
      */
-    void start();
+    void start(WebApplicationContext webApplicationContext);
 }
