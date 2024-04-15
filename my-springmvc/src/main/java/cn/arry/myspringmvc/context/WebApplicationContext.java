@@ -8,4 +8,5 @@ import org.springframework.context.ApplicationContext;
  * @since 1.0
  */
 public interface WebApplicationContext extends ApplicationContext {
+    String ROOT_NAME = WebApplicationContext.class.getName() + "ROOT";
 }
